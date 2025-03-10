@@ -5,10 +5,6 @@ const { Title, Paragraph } = Typography;
 const TermsAndConditions = () => {
     return (
         <div style={{ padding: '2em' }}>
-            <Title level={1}>Terms and Conditions</Title>
-            <Paragraph strong>Last Updated: March 9, 2025</Paragraph>
-            <Title level={2}>1. Membership Overview</Title>
-            <Paragraph>Your membership with Boss Lifting Club provides access...</Paragraph>
             <Title level={3}>Terms and Conditions for Boss Lifting Club</Title>
             <Paragraph strong>Last Updated: March 9, 2025</Paragraph>
             <Paragraph>Welcome to Boss Lifting Club. By signing up for a membership or using our services, including purchasing products such as drinks or gym merchandise, you agree to be bound by these Terms and Conditions ("Terms"). Please read them carefully before proceeding with your membership sign-up.</Paragraph>
