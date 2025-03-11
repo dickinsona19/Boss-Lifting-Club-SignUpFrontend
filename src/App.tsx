@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import { ConfigProvider, Layout, Typography} from 'antd';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { SignUpForm } from './components/SignUpForm';
-import SuccesPage from '../src/components/SuccessPage'
-import TermsAndConditions from '../src/components/TermsAndConditions'
+import { SignUpForm } from './components/SignupPage/SignUpForm';
+import SuccesPage from './components/SignupPage/SuccessPage'
+import TermsAndConditions from './components/SignupPage/TermsAndConditions'
+import MainPage from './components/MainPage/MainPage';
+import Navigation from './components/Navigation';
 
 const { Content } = Layout;
 const { Title, Text } = Typography;
@@ -25,11 +27,15 @@ function App() {
     >
       <Router>
         <Layout className="min-h-screen bg-gray-50">
+        <Navigation/>
           <Content>
             <Routes>
+              
               <Route path="/success" element={<SuccesPage />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-              <Route path="/" element={
+              <Route path="/" element={<MainPage />}></Route>
+              
+              <Route path="/signup" element={
                 <div className="flex flex-col md:flex-row min-h-screen">
                   {/* Left Side - Sign Up Form */}
                   <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
