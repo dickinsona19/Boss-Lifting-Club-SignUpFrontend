@@ -3,7 +3,7 @@ import { Form, Input, Button, message, Checkbox } from 'antd';
 import { loadStripe } from '@stripe/stripe-js';
 import PhonenumberModal from './PhonenumberModal';
 
-const stripePromise = loadStripe("pk_test_51Qv2gKRs8b43cBltmGoGXiyIb39FyJohM4XxpsEN1upUvj0JxfWOW7WoHMVogi83n25OHsXHL0vPNbioChwt7xlJ00iWu6MCcR");
+const stripePromise = loadStripe("pk_live_51R0485GHcVHSTvgIIklSPgIuBQRKFLnkzkW3X1XqAuwzNiMdc5KQI8yYBRCI2qzGoT9WW9eptoZQhNOMR2mxSaxo00AtKHFX5N");
 
 
 
