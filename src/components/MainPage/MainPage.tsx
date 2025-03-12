@@ -17,9 +17,9 @@ const MainPage = () => {
           {/* Left Column - Product Info */}
           <div className="space-y-12">
             <div>
-              <h2 className="text-sm tracking-wider mb-2">BL_V2</h2>
+              <h2 className="text-sm tracking-wider mb-2">CLT_V2</h2>
               {/* <h1 className="text-4xl tracking-wider mb-2 font-bold">Boss Lifting Club</h1> */}
-              <h1 className="font-serif text-4xl mb-4">Boss Lifting Club</h1>
+              <h1 className="font-serif text-4xl mb-4">CLT Lifting Club</h1>
               <p className="text-neutral-600">
                 Revolutionary gym equipment and community designed for maximum performance and efficiency.
               </p>

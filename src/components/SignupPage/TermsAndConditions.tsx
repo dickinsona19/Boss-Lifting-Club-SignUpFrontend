@@ -5,11 +5,11 @@ const { Title, Paragraph } = Typography;
 const TermsAndConditions = () => {
     return (
         <div style={{ padding: '2em' }}>
-            <Title level={3}>Terms and Conditions for Boss Lifting Club</Title>
+            <Title level={3}>Terms and Conditions for CLT Lifting Club</Title>
             <Paragraph strong>Last Updated: March 9, 2025</Paragraph>
-            <Paragraph>Welcome to Boss Lifting Club. By signing up for a membership or using our services, including purchasing products such as drinks or gym merchandise, you agree to be bound by these Terms and Conditions ("Terms"). Please read them carefully before proceeding with your membership sign-up.</Paragraph>
+            <Paragraph>Welcome to CLT Lifting Club. By signing up for a membership or using our services, including purchasing products such as drinks or gym merchandise, you agree to be bound by these Terms and Conditions ("Terms"). Please read them carefully before proceeding with your membership sign-up.</Paragraph>
             <Title level={4}>1. Membership Overview</Title>
-            <Paragraph>Membership: Your membership with Boss Lifting Club provides access to our gym facilities, services, and the ability to purchase additional products (e.g., drinks, merchandise) via your account.</Paragraph>
+            <Paragraph>Membership: Your membership with CLT Lifting Club provides access to our gym facilities, services, and the ability to purchase additional products (e.g., drinks, merchandise) via your account.</Paragraph>
             <Paragraph>Stripe Integration: We use Stripe, a third-party payment processor, to manage your membership subscriptions and payments for products. By signing up, you agree to link a valid payment card to your Stripe customer profile, which will be used for recurring membership fees and one-time purchases.</Paragraph>
             <Title level={4}>2. Payment Terms</Title>
             <Paragraph>Membership Fees: Membership fees are charged monthly via Stripe on the date of your initial sign-up (e.g., if you sign up on the 9th, billing occurs on the 9th of each subsequent month). Fees are non-refundable except as outlined in Section 5 (Cancellation and Refunds).</Paragraph>

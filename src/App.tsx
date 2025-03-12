@@ -41,7 +41,7 @@ function App() {
                   <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
                     <div className="max-w-md mx-auto w-full">
                       <Title level={1} className="text-4xl font-bold mb-2 text-blue-900">
-                        Boss Lifting Club
+                        CLT Lifting Club
                       </Title>
                       <Text className="text-gray-600 mb-8 block">
                         Join our community of dedicated fitness enthusiasts
