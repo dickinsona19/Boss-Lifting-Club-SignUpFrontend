@@ -67,12 +67,21 @@ function App() {
                           $89/Month
                         </Text>
                         <Text className="text-white/90 block mb-4">
-                          Sign up now for our exclusive Founders Month-to-Month membership
+                          Sign up now for our exclusive Founders Month-to-Month membership and get your first month free!
                         </Text>
                       </div>
                       <div className="bg-green-500/20 backdrop-blur-sm rounded-lg p-4">
                         <Text className="text-white block">
                           ⭐️ Special Pre-Opening Offer: We will not charge you until the gym opens!
+                        </Text>
+                      </div>
+                      {/* Highlighting the free month offer */}
+                      <div className="bg-yellow-500/20 backdrop-blur-sm rounded-lg p-4 mt-4">
+                        <Text className="text-white block text-center font-bold">
+                          FREE MONTH OFFER! 🎉
+                        </Text>
+                        <Text className="text-white block text-center">
+                          Get your first month of membership absolutely free! No strings attached.
                         </Text>
                       </div>
                     </div>

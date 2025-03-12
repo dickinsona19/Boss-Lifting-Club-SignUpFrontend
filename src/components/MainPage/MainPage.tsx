@@ -18,7 +18,8 @@ const MainPage = () => {
           <div className="space-y-12">
             <div>
               <h2 className="text-sm tracking-wider mb-2">BL_V2</h2>
-              <h1 className="font-serif text-4xl mb-4">Unlock Your Fitness Potential</h1>
+              {/* <h1 className="text-4xl tracking-wider mb-2 font-bold">Boss Lifting Club</h1> */}
+              <h1 className="font-serif text-4xl mb-4">Boss Lifting Club</h1>
               <p className="text-neutral-600">
                 Revolutionary gym equipment and community designed for maximum performance and efficiency.
               </p>
@@ -51,13 +52,13 @@ const MainPage = () => {
                       <Check className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black" />
                     </div>
                     <div>
-                      <h3 className="font-medium">Limited Time Offer</h3>
-                      <p className="text-sm text-neutral-600">Join now and get a lifetime discount</p>
+                      <h3 className="font-medium">Special Offer</h3>
+                      <p className="text-sm text-neutral-600">Sign up now and enjoy a lifetime discount, plus your first month is on us</p>
                     </div>
                   </div>
                   <div className="text-right">
                     <p className="font-medium">$89.99/M</p>
-
+                    <p className="text-sm text-neutral-600">First month free!</p>
                   </div>
                 </div>
 
@@ -100,8 +101,8 @@ const MainPage = () => {
               </div>
               <div className="absolute bottom-1/4 right-0 transform translate-x-1/2">
                 <div className="bg-white p-4 rounded-lg shadow-lg">
-                  <h3 className="font-serif text-sm">Smart System</h3>
-                  <p className="text-xs text-neutral-600">Performance tracking</p>
+                  <h3 className="font-serif text-sm">Community</h3>
+                  <p className="text-xs text-neutral-600">Supportive Fitness Network</p>
                 </div>
               </div>
             </div>
